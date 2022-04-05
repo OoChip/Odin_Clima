@@ -1,0 +1,35 @@
+*
+*::after
+*::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 18px;
+}
+
+root{
+    --main-color: white;
+}
+
+#body{
+    background-color: aqua;
+    background-image: url(../assets/cucuta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size:  2rem;
+    text-align: center;
+    color: whitesmoke;
+}
